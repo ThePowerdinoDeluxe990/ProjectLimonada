@@ -123,7 +123,10 @@ fun BaseApp(){
     Scaffold(
         topBar = {
             CenterAlignedTopAppBar(
-                title = { Text(stringResource(R.string.app_name), fontWeight = FontWeight.Bold) },
+                title = { Text(stringResource(R.string.app_name),
+                    fontWeight = FontWeight.Bold,
+                    color = Color.Black
+                ) },
                 colors = TopAppBarDefaults.smallTopAppBarColors(containerColor = Color(0xFFFDF442))
             )
     }
