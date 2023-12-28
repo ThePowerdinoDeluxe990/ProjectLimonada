@@ -127,7 +127,9 @@ fun BaseApp(){
                     fontWeight = FontWeight.Bold,
                     color = Color.Black
                 ) },
-                colors = TopAppBarDefaults.smallTopAppBarColors(containerColor = Color(0xFFFDF442))
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = Color(0xFFFDF442),
+                ),
             )
     }
     ){
